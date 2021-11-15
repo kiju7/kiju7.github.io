@@ -1,0 +1,433 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    포토 폴리오| 한밭대학교 컴퓨터공학과 김기주.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>포토 폴리오</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>한밭대학교 컴퓨터공학과 <br>20161628 김기주</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Android Application</h3>
+              <h1>Food Truck APP</h1>
+              <p>
+                푸드트럭 접근성 향상을 위한 어플.<br>
+              </p>
+              <ul class="work__list">
+                <li>Firebase</li>
+                <li>Android Studio</li>
+                <li>Java</li>
+                <p>배달 위주의 배달 어플 같은 경우 이미 많은 사용자들이 이용하고 있습니다. 하지만 한 위치에 고정적이 아닌 유동적으로 장사를 하는 푸드트럭의 경우 해당 이유로 배달 어플에 등록하기 어려웠고 소비자 역시 접근하기 어려웠습니다.
+                  <br>푸드트럭 어플은 사업자가 소비자에게 메뉴, 위치 등의 정보를 제공하고 접근성을 높이기 위해 제작 되었습니다. 
+                  <br><br>Firebase를 통해 사업자, 소비자 정보를 관리합니다.
+                  <br>푸드트럭 사업자에게 사업 등록, 프로필과 메뉴 등록 그리고 영업 위치 등록을 통해 소비자에게 자신의 푸드트럭을 소개 할 수 있습니다.
+                  <br>소비자는 지도를 통해 운영중인 푸드트럭 위치를 확인하고 해당 푸드트럭에서 판매중인 메뉴, 리뷰를 확인 할 수 있으며, 리뷰를 작성 할 수 있습니다. 
+                  <br>또한 즐겨찾기 기능을 통해 해당 푸드트럭에 대한 위치를 실시간으로 확인 할 수 있습니다.
+                  
+                </p>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/foodtruck.mp4" class="work__image" alt="Foodtruck Video" />
+              <img src="./images/foodtruck.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          
+          <div class="work__box">
+            <div class="work__text">
+              <h1>Video Calling APP</h1>
+              <p>
+                화상 채팅 어플.
+              </p>
+              <ul class="work__list">
+                <li>Firebase</li>
+                <li>Android Studio</li>
+                <li>PeerJS</li>
+                <li>HTML</li>
+                <li>Java</li>
+                
+                <p> 웹 애플리케이션과 사이트가 중간자 없이 브라우저 간에 오디오나 영상 미디어를 포착하고 마음대로 스트림하는 WebRTC 기술을 이용하여 화상채팅이 가능하도록 만든 어플 입니다.</p>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/webrtc.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+        
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Computer Vision</h3>
+              <h1>드론을 이용한 주정차 단속 프로젝트 ( 한이음 입상 )</h1>
+              <p>        
+                딥러닝 모델을 이용하여 차량과 번호판을 검출.
+              </p>
+              <ul class="work__list">
+                <li>YOLOv3</li>
+                <li>OpenCV</li>
+                <li>OCR</li>
+                <li>C++</li>
+                <li>Python</li>
+                <p>기존 주정차를 단속하는데 있어서 카메라가 설치된 차량을 직접 운전, 사람의 확인을 통하여 단속이 이루어졌습니다. 해당 프로젝트는 도로 상황에 영향을 받지 않고 좀 더 빠르고 효율적인 단속을 위해 드론과 인공지능을 이용하여 주정차를 단속합니다. 
+                  <br><br>드론의 카메라를 이용하여 서버에 영상을 전송, YOLOv3를 이용하여 자동차, 트럭, 번호판을 검출 할 수 있는 모델을 만들기 위해 데이터 수집, 정제, 라벨링 작업을 거쳐 딥러닝 모델을 개발하고 이를 이용하여 차량을 검출하고 해당 정보를 취득합니다. 
+                  <br> 이후 차량의 번호판을 OCR 기술을 이용하여 번호를 인식하고 DB에 저장. 주정차를 관리 합니다.</p>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/haneum1.png" class="work__image" alt="Project 3" />
+              <img src="./images/haneum2.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h1>Smart Farm</h1>
+              <p>        
+                인공지능을 이용한 돈가 돼지들을 검출, 추적 관리.
+              </p>
+              <ul class="work__list">
+                <li>YOLOv5</li>
+                <li>OpenCV</li>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>HTML & CSS & JS</li>
+            
+                <p>많은 분야에서 인건비, 효율적인 관리등을 위해 인공지능을 이용, 대체하고 있습니다. 그 중 돈가에서도 인공지능을 이용하여 돼지들을 효율적인 관리를 위해 해당 프로젝트를 진행하였습니다.
+                  <br><br>YOLOv5를 이용하여 돼지들을 검출할 수 있는 모델을 학습, 검출합니다.
+                  <br> Flask를 이용하여 돈가에 설치된 영상을 송출 함과 동시에 딥러닝 모델과 deepsort 알고리즘을 이용하여 검출된 돼지들을 tracking 합니다.
+                  <br> Ajax 통신을 통하여 원하는 돼지 객체의 번호만을 추적 할 수도 있습니다.
+                  <br> PC, 스마트폰, 태블릿 PC 등 접속하는 디스플레이의 종류에 따라 화면의 크기가 자동으로 변하도록 반응형 웹으로 제작 되었습니다.
+                </p>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/smartfarm1.png" class="work__image" alt="Project 3" />
+              <img src="./images/smartfarm2.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h1>Smart Farm</h1>
+              <p>        
+                OCR을 이용한 돈가 기록표 관리.
+              </p>
+              <ul class="work__list">
+                <li>clovaai/CRAFT</li>
+                <li>clovaai/deep-text-recognition</li>
+                <li>OpenCV</li>
+                <li>Python</li>
+            
+                <p>
+                </p>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/clova1.png" class="work__image" alt="Project 3" />
+              <img src="./images/clova2.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h1>Capstone Design</h1>
+              <p>        
+                웹을 이용한 문서 OCR 서비스
+              </p>
+              <ul class="work__list">
+                <li>YOLOv5</li>
+                <li>OpenCV</li>
+                <li>OCR</li>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>HTML & CSS & JS</li>
+                <li>Nginx</li>
+                <li>MySQL</li>
+            
+                <p> 기존 OCR 소프트웨어 프로그램은 대부분 유료 라이센스를 구매하거나 사용자 PC 사양(처리속도, 저장공간)등이 성능과 영향이 있었습니다. 
+                  <br>또한 웹 서비스 같은 경우 무료로 접근성이 프로그램에 비해서 제약이 적고 접근성이 좋았지만, 문서 전체만 변환하는 기능만 제공하고, 한글을 미지원 하는 등 기능적인 부분에서 많은 아쉬움이 있었습니다.
+                  <br>캡스톤 디자인으로 진행된 웹을 이용한 문서 OCR 서비스 프로젝트는 이러한 웹 서비스의 접근성을 살리면서 사용자들이 사용하는데 있어서 유용한 기능들을 제공합니다.
+                  
+                  <br><br>저희 프로젝트는 유저가 브라우저를 통해 url로 웹사이트에 접속을 하면 Nginx(엔진엑스)가 정적파일(html,css,js로 이루어진)을 브라우저로 전송을 해줍니다. 
+                  웹사이트에서 발생되는 동적이벤트들(사용자 정보, 버튼을 눌렀을때 변하는 부분,OCR 등)은 ajax(에이잭스)를 통해서 gunicorn(구니콘) 이라는 WAS(web application server)에 요청을 하고 로직 처리후 값을 반환 받게 됩니다.
+                  WAS에서 사용자 정보 생성, 조회등과 같은 정보는 DB서버에 쿼리를 해서 값을 반환 받게 됩니다.
+                  <br><br>OCR 엔진으로는 Tesseract의 OCR 엔진을 사용하는데 기존 Tesseract에서 제공하는 한글 모델의 경우 영어에 비해서 좋지 못한 인식률을 보여주었습니다. 해당 문제를 해결하기 위해 뉴스기사, 노래 가사등을 크롤링을 통해 정제하고 LSTM 학습을 통해 인식률을 개선 시켰습니다.
+                  <br><br>회원 비회원 모두 이용 가능한 문서 전체 OCR 기능을 지원합니다. 텍스트로 변환하고자 하는 pdf,이미지 파일을 업로드 후 전체 텍스트 변환을 통해 변환된 텍스트 파일을 Ajax를 통해서 반환 받아 화면에 출력하게 합니다.
+                  <br><br>커스텀 OCR은 회원에게 제공되는 기능입니다. 일부 사용자에게는 문서 전체의 텍스트 정보를 얻기 보다는 원하는 위치에 있는 내용만을 변환하고 싶어 합니다. 저희는 이러한 사용자들을 위해서 사용자가 영역을 직접 지정을 하여 해당 영역만을 잘라 텍스트 변환을 제공합니다.
+                  텍스트 변환 버튼을 통해 사용자가 지정한 영역의 원본과 텍스트로 변환된 결과를 함께 출력하여 수정 및 저장하는 기능을 제공합니다.
+                  <br>동일한 문서를 여러장 처리하는데 있어 용의하도록 해당 영역을 지정후 저장하고 이를 불러와서 재사용 할 수 있는 템플릿 기능도 함께 제공하고 있습니다.
+                  <br><br>텍스트 변환하는데 있어서 표가 있는 문서는 표의 선과 형식으로 인해서 원하는 정보를 정확히 얻어 낼 수 없습니다. 
+                  <br>이를 해결 하고자 YOLOv5 를 이용한 표를 검출할 수 있는 딥러닝 모델을 직접 학습시켰으며 문서에서 표를 검출 할 수 있도록 하였습니다.
+                  <br>검출된 표를 OpenCV를 이용한 영상처리 작업을 거쳐 표의 셀들에 대한 정보를 얻어내고 텍스트 변환, Excel 형태로 저장하여 완벽하게 표에 대한 정보를 가져올 수 있습니다.
+                  <br><br>
+                </p>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <br><br>전체 구성도
+              <img src="./images/1.png" class="work__image" alt="Project 3" />
+              <br><br>한글 데이터 정제, Tesseract LSTM fine-tuning
+              <img src="./images/tesseract.png" class="work__image" alt="Project 3" />
+              <br><br>전체문서 OCR
+              <img src="./images/2.png" class="work__image" alt="Project 3" />
+              <br><br>커스텀 OCR
+              <img src="./images/custom.png" class="work__image" alt="Project 3" />
+              <br><br>YOLOv5 Table Detection
+              <img src="./images/table1.png" class="work__image" alt="Project 3" />
+              <br><br>OpenCV Table Cell detection
+              <img src="./images/table2.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+
+          <!-- <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+                
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div> -->
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              한밭대학교 컴퓨터공학과 재학 중 ( 2016.03 ~ )
+              <br><br>수상 내역 <br>
+              한이음 ICT 멘토링 입상 (2020.)
+              <br>제 1회 창의혁신 캡스톤디자인 경진대회 창의상 (2020.)
+              <br><br>연구 분야<br>
+              영상처리, 인공지능
+            </p>
+            <!-- Provide a link to your resume -->
+       
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/me.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <!-- Replace the email with yours -->
+        <a href="mailto:kimkiju07@gmail.com" class="btn">kimkiju07@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
